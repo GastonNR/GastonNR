@@ -1,6 +1,6 @@
 # Mi nombre es Nicolás Ruiz y...
 
-Desarrollador full stack. Me gusta construir aplicaciones completas:
+soy desarrollador de software. Me gusta construir aplicaciones completas:
 desde el modelo de datos y la API hasta el frontend y el despliegue.
 
 - 🔭 Ahora: **LeitnerApp**, una app de estudio con repetición espaciada (React + Express + MongoDB)
