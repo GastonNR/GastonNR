@@ -1,4 +1,4 @@
-# Hola, soy Nicolás 👋
+# Mi nombre es Nicolás Ruiz y...
 
 Desarrollador full stack. Me gusta construir aplicaciones completas:
 desde el modelo de datos y la API hasta el frontend y el despliegue.
