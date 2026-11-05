@@ -1,4 +1,6 @@
-# Mi nombre es Nicolás Ruiz y...
+<p align="center">
+    <img src:"assets/banner-retro-ts.svg" alt="Nicolás Ruiz - Desarrollador de Software" width="100%">
+</p>
 
 soy desarrollador de software. Me dedico a construir aplicaciones completas:
 desde los requerimientos, la arquitectura, el modelado de datos, el frontend y el backend.
