@@ -1,4 +1,4 @@
-name: Gráfico de contribuciones
+name: Banner del perfil
 
 on:
   schedule:
@@ -9,17 +9,17 @@ permissions:
   contents: write
 
 jobs:
-  contrib:
+  banner:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generar assets/contrib-retro.svg
-        run: python3 scripts/make_contrib.py assets
+      - name: Generar assets/banner.svg
+        run: python3 scripts/make_banner.py assets
 
-      - name: Guardar el SVG si cambió
+      - name: Guardar el banner si cambió
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/contrib-retro.svg
-          git diff --cached --quiet || (git commit -m "Actualiza el gráfico de contribuciones" && git push)
+          git add assets/banner.svg
+          git diff --cached --quiet || (git commit -m "Actualiza el banner del perfil" && git push)

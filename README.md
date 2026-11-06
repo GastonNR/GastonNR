@@ -1,6 +1,4 @@
-<p align="center"><img src="assets/banner-retro-ts.svg" alt="Nicolás Ruiz — Desarrollador de Software" width="100%"></p>
-
-<p align="center"><img src="assets/contrib-retro.svg" alt="Gráfico de contribuciones de GastonNR" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Gastón Nicolás Ruiz Ahumada — Desarrollador de Software" width="100%"></p>
 
 - En desarrollo: **Entrópica**, aplicación web SaaS, B2B para gestión y dimensionamiento de proyectos fotovoltaicos (React + FastApi + postgresql).
 - Educación: **LeitnerApp**, una app de estudio con repetición espaciada (React + Express + MongoDB)
