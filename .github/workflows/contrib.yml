@@ -1,0 +1,25 @@
+name: Gráfico de contribuciones
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # todos los días a las 06:00 UTC (03:00 en Argentina)
+  workflow_dispatch: # permite correrlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  contrib:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generar assets/contrib-retro.svg
+        run: python3 scripts/make_contrib.py assets
+
+      - name: Guardar el SVG si cambió
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contrib-retro.svg
+          git diff --cached --quiet || (git commit -m "Actualiza el gráfico de contribuciones" && git push)
