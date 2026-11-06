@@ -1,8 +1,5 @@
 <p align="center"><img src="assets/banner-retro-ts.svg" alt="Nicolás Ruiz — Desarrollador de Software" width="100%"></p>
 
- Me dedico a construir aplicaciones completas:
-desde los requerimientos, la arquitectura, el modelado de datos, el frontend y el backend.
-
 <p align="center"><img src="assets/contrib-retro.svg" alt="Gráfico de contribuciones de GastonNR" width="100%"></p>
 
 - En desarrollo: **Entrópica**, aplicación web SaaS, B2B para gestión y dimensionamiento de proyectos fotovoltaicos (React + FastApi + postgresql).
